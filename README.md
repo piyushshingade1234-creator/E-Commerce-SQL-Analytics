@@ -30,7 +30,7 @@ Tables:
 ## How to use
 1. Create or select the `ecommerce_analytics` database.
 2. Ensure the five tables and their data are loaded.
-3. Open the SQL scripts in the `sql/` folder in MySQL Workbench.
+3. Open the SQL scripts in the repository root in MySQL Workbench. Run 00_schema.sql first, followed by 01_insert_data.sql. Then run the analysis scripts.
 4. Run each phase script in order.
 5. Save selected query result screenshots in `results/`.
 6. Replace or supplement `business_insights.md` with findings from your actual query outputs.
