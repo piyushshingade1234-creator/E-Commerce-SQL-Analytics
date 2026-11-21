@@ -1,0 +1,6 @@
+-- Expected schema reference (do not run this file to recreate tables).
+-- customers(customer_id, customer_name, email, city, country, signup_date)
+-- employees(employee_id, employee_name, department, city, hire_date, salary)
+-- products(product_id, product_name, category, unit_price, stock)
+-- orders(order_id, customer_id, employee_id, order_date, status, payment_method, shipping_city)
+-- order_items(item_id, order_id, product_id, quantity, unit_price, discount_pct)
